@@ -1,0 +1,62 @@
+body{  
+  background-color: rgba(34, 34, 59);
+  background-image: url(Eurasian_wolf_2.jpg);
+  background-position: center;
+  width:100%;
+  height: 100vh;
+  margin:0;
+  font-family: Tahoma;
+  font-size: 16px;
+  color: #c9ada7;
+}
+h1, p{
+  text-align: center;
+  margin: 1em auto;
+}
+
+.inline{
+  display: inline;
+  width:unset;
+  margin: 0.05em 0 0;
+  vertical-align: middle;
+}
+
+form{
+  border-radius: 2%;
+  background-color: rgba(34, 34, 59, 0.9);
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+legend{
+  text-align: center;
+}
+label{
+  text-align: center;
+  display: block;
+  margin: 0.5rem 0;
+
+}
+
+fieldset{
+  border:none;
+  padding: 0.5rem 0;
+}
+
+input, select{
+  
+  border: 2px solid #f2e9e4;
+  background-color: #c9ada7;
+  color: #f2e9e4;
+  margin: 10px 0 0 0;
+  width: 80%;
+  min-height: 2em;
+
+}
+
+.survey{
+  padding: 20px;
+}
