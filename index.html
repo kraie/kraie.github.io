@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sigma Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Sigma Rizz Survey</h1>
+
+    <p id="description">Survey for sigmas</p>
+    <div class="survey">
+      <form
+        id="survey-form"
+        action="https://formsubmit.co/17b86ec11a8d9d8c98a481429b949722"
+        method="POST"
+      >
+        <fieldset>
+          <label for="name">
+            Enter your name:
+            <input id="name" name="name" type="text" required />
+          </label>
+
+          <label for="email">
+            Enter your email:
+            <input id="email" name="email" type="email" required />
+          </label>
+
+          <label for="age"
+            >Enter your age:
+            <input id="age" name="age" type="number" min="18" max="50" />
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Do you have rizz</legend>
+          <label for="wRizz">
+            <input type="radio" id="wRizz" name="rizz" class="inline" /> I have
+            rizz</label
+          >
+          <label for="lRizz">
+            <input type="radio" id="lRizz" name="rizz" class="inline" /> I don't
+            have rizz</label
+          >
+        </fieldset>
+        <fieldset>
+          <label for="glaze">
+            Favorite Sigma?
+
+            <select id="glaze" name="glaze">
+              <option value="n/a">Select one</option>
+              <option value="andrewTate">Andrew Tate</option>
+              <option value="adinRoss">Adin Ross</option>
+              <option value="patrickBateman">Patrick Bateman</option>
+            </select>
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>What are your sigma qualites?</legend>
+          <label for="greasy">
+            Greasy Hair
+            <input id="greasy" name="greasy" type="checkbox" class="inline" />
+          </label>
+          <label for="smelly">
+            Smelly
+            <input id="smelly" name="smelly" type="checkbox" class="inline" />
+          </label>
+          <label for="aura">
+            Aura
+            <input id="aura" name="aura" type="checkbox" class="inline" />
+          </label>
+          <label for="ugly">
+            Ugly
+            <input id="ugly" name="ugly" type="checkbox" class="inline" />
+          </label>
+        </fieldset>
+        <label>
+          <input type="submit" valu="Submit" />
+        </label>
+      </form>
+    </div>
+  </body>
+</html>
